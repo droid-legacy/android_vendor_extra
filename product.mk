@@ -1,3 +1,4 @@
+# Font
 PRODUCT_PACKAGES += \
     custom_fonts_customization.xml \
     FontAccuratistOverlay \
@@ -36,3 +37,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+# Browser
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-jelly
