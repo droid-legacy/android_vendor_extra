@@ -4,8 +4,9 @@
 //
 
 prebuilt_etc {
-    name: "fonts_customization.xml",
+    name: "custom_fonts_customization.xml",
 
+    overrides: ["fonts_customization.xml"],
     src: "fonts_customization.xml",
     product_specific: true,
 }
