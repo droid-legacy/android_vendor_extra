@@ -38,4 +38,4 @@ PRODUCT_PACKAGES += \
     FontUbuntuOverlay
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/extra/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
