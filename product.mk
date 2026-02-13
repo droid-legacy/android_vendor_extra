@@ -6,11 +6,9 @@ PRODUCT_PACKAGES += \
     FontBariolOverlay \
     FontCagliostroOverlay \
     FontCoconOverlay \
-    FontComfortaaOverlay \
     FontComicSansOverlay \
     FontCookieRunOverlay \
     FontCoolstoryOverlay \
-    FontExotwoOverlay \
     FontFifa2018Overlay \
     FontGrandHotelOverlay \
     FontHarmonySansOverlay \
@@ -34,8 +32,7 @@ PRODUCT_PACKAGES += \
     FontSansSerifOverlay \
     FontSonySketchOverlay \
     FontStoropiaOverlay \
-    FontSurferOverlay \
-    FontUbuntuOverlay
+    FontSurferOverlay
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts)
